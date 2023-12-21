@@ -1,0 +1,14 @@
+/* 改变主题色变量 */
+$--color-primary: #404bf5;
+$red: red;
+
+@mixin text-overflow_ellipsis_line($line: 2) {
+  white-space: normal;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}

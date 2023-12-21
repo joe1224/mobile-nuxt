@@ -1,0 +1,16 @@
+<template>
+  <div class="container"></div>
+</template>
+
+<script>
+export default {
+  name: 'Download',
+  data() {
+    return {};
+  },
+  methods: {},
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
